@@ -385,7 +385,7 @@ video{
     height: 2px;
     border-radius: 6px;
     background: linear-gradient(45deg, #00b4fc, #016186);
-    margin-left: 250px;
+    margin-left: 180px;
 }
 .line2::after{
     position:absolute;
@@ -395,7 +395,7 @@ video{
     height: 2px;
     border-radius: 6px;
     background: linear-gradient(45deg, #00b4fc, #016186);
-    margin-left: 250px;
+    margin-left: 180px;
 }
 .line3::after{
     position:absolute;
