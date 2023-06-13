@@ -375,7 +375,7 @@ video{
     height: 2px;
     border-radius: 6px;
     background: linear-gradient(45deg, #00b4fc, #016186);
-    right: 267px;
+    right: 287px;
   }
 .line1::after{
     position:absolute;
@@ -385,7 +385,7 @@ video{
     height: 2px;
     border-radius: 6px;
     background: linear-gradient(45deg, #00b4fc, #016186);
-    margin-left: 230px;
+    margin-left: 210px;
 }
 .line2::after{
     position:absolute;
@@ -395,7 +395,7 @@ video{
     height: 2px;
     border-radius: 6px;
     background: linear-gradient(45deg, #00b4fc, #016186);
-    margin-left: 230px;
+    margin-left: 210px;
 }
 .line3::after{
     position:absolute;
@@ -405,7 +405,7 @@ video{
     height: 2px;
     border-radius: 6px;
     background: linear-gradient(45deg, #00b4fc, #016186);
-    right: 267px;
+    right: 287px;
    }
 }
 @media(max-width: 390px)
