@@ -421,7 +421,7 @@ video{
     .title h2::after{
      position:absolute;
      content: "";
-     top:1012px;
+     top:1042px;
      width: 10%;
      height: 2px;
      border-radius: 6px;
@@ -431,7 +431,7 @@ video{
  .line1::after{
      position:absolute;
      content: "";
-     top:1012px;
+     top:1042px;
      width: 10%;
      height: 2px;
      border-radius: 6px;
@@ -441,7 +441,7 @@ video{
  .line2::after{
      position:absolute;
      content: "";
-     top:1020px;
+     top:1050px;
      width: 14%;
      height: 2px;
      border-radius: 6px;
@@ -451,7 +451,7 @@ video{
  .line3::after{
      position:absolute;
      content: "";
-     top:1020px;
+     top:1050px;
      width: 14%;
      height: 2px;
      border-radius: 6px;
