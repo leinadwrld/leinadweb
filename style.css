@@ -418,46 +418,7 @@ video{
             margin-right: 16px;
         
     }
-    .title h2::after{
-     position:absolute;
-     content: "";
-     top:1042px;
-     width: 10%;
-     height: 2px;
-     border-radius: 6px;
-     background: linear-gradient(45deg, #00b4fc, #016186);
-     right: 270px;
-   }
- .line1::after{
-     position:absolute;
-     content: "";
-     top:1042px;
-     width: 10%;
-     height: 2px;
-     border-radius: 6px;
-     background: linear-gradient(45deg, #00b4fc, #016186);
-     margin-left: 250px;
- }
- .line2::after{
-     position:absolute;
-     content: "";
-     top:1050px;
-     width: 14%;
-     height: 2px;
-     border-radius: 6px;
-     background: linear-gradient(45deg, #00b4fc, #016186);
-     margin-left: 250px;
- }
- .line3::after{
-     position:absolute;
-     content: "";
-     top:1050px;
-     width: 14%;
-     height: 2px;
-     border-radius: 6px;
-     background: linear-gradient(45deg, #00b4fc, #016186);
-     right: 270px;
-    }
+
 }
 @media(max-width: 375px)
     {
@@ -490,46 +451,7 @@ video{
         width: 90%;
         margin: 5px 16px;
        }
-    .title h2::after{
-     position:absolute;
-     content: "";
-     top:1012px;
-     width: 10%;
-     height: 2px;
-     border-radius: 6px;
-     background: linear-gradient(45deg, #00b4fc, #016186);
-     right: 290px;
-   }
- .line1::after{
-     position:absolute;
-     content: "";
-     top:1012px;
-     width: 10%;
-     height: 2px;
-     border-radius: 6px;
-     background: linear-gradient(45deg, #00b4fc, #016186);
-     margin-left: 260px;
- }
- .line2::after{
-     position:absolute;
-     content: "";
-     top:1020px;
-     width: 14%;
-     height: 2px;
-     border-radius: 6px;
-     background: linear-gradient(45deg, #00b4fc, #016186);
-     margin-left: 260px;
- }
- .line3::after{
-     position:absolute;
-     content: "";
-     top:1020px;
-     width: 14%;
-     height: 2px;
-     border-radius: 6px;
-     background: linear-gradient(45deg, #00b4fc, #016186);
-     right: 290px;
-    }
+
     .card{
         margin: 20px;
         margin-left: 70px;
