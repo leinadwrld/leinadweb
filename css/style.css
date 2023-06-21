@@ -126,14 +126,14 @@ body{
 }
 .swiper-navBtn::before,
 .swiper-navBtn::after{
-  font-size: 35px;
+  font-size: 40px;
 }
 .swiper-button-next{
-  right: 0;
+  right: -104px;
   top: 800;
 }
 .swiper-button-prev{
-  left: 0;
+  left: -103px;
   top: 800;
 }
 .swiper-pagination-bullet{
