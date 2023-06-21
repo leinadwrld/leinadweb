@@ -139,11 +139,9 @@ body{
 .swiper-pagination-bullet{
   background-color: #f64c57;
   opacity: 1;
-  display: none;
 }
 .swiper-pagination-bullet-active{
   background-color: #016186;
-  bottom: 3px;
 }
 
 @media screen and (max-width: 768px) {
