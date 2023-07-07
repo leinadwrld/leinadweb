@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="I'm a Front-End Developer and i make designs on website, work with me today.">
@@ -8,18 +9,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>leinadweb</title>
+    <link rel="icon" type="image/x-icon" href="/images/leinadweb.jpg"  object-fit: cic>
        <!-- Swiper CSS -->
        <link rel="stylesheet" href="css/swiper-bundle.min.css">
 
        <!-- CSS -->
        <link rel="stylesheet" href="css/style.css">
+       <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="contact me\contact.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
 </head>
 <body>
- <div class="container">
+    <nav>
+        <ul>
+         <li><div class="logo">
+            <img id="Home" src="images\logo.png">
+          </div></li>
+           <li class="items"><a href="#Home">Home</a></li>
+           <li class="items"><a href="#PreviousJobs">Previous Jobs</a></li>
+           <li class="items"><a href="#MyReviews">My Reviews</a></li>
+           <li class="items"><a href="#contact"><button class="btn-contact">Contact Me</button></a></li>
+           <li class="btn-nav"><a href="#"><i class="fas fa-bars"></i></a></li>
+        </ul>
+     </nav>
+
+     
+     <div class="button">
+       
+     <script>
+        $(document).ready(function(){
+          $('.btn-nav').click(function(){
+            $('.items').toggleClass("show");
+            $('ul li').toggleClass("hide");
+          });
+        });
+     </script>
+
+ <div  id="contactinfo" class="container">
   <div class="anim">
     <div class="profile-card">
         <div class="container">
@@ -68,7 +98,7 @@
             </div>
     </div>
     <div>
-      <a href="mailto:leinadwrldd@gmail.com"><button class="btn">work with me</button></a>
+      <a href="#contact"><button class="btn">work with me</button></a>
         </div>  
     </div>
         </div>
@@ -76,7 +106,7 @@
 
 
         <!----section for about---->
-        <div class="about">
+        <div id="AboutMe" class="about">
             <h1 class="anim">About Me</h1>
             
             <p class="anim">I'm a Front-End Developer and i'm from Lagos, Nigeria. i create website for blogs, personal website, e-commerce website and so on, i really enjoy making website designs and being creative
@@ -148,7 +178,7 @@
             </div>
         </div>
  
- <div class="about-3">
+ <div id="MyReviews" class="about-3">
   <h1 class="anim">My Reviews</h1>
   <div class="slide-container swiper">
     <div class="slide-content">
@@ -329,7 +359,7 @@
                     <a href=""><i class="fa fa-facebook"></i></a>
                      <a href="https://twitter.com/meks_Xchange"><i class="fa fa-twitter"></i></a>
                      <a href="https://www.instagram.com/meks_xchange/"><i class="fa fa-instagram"></i></a>
-                     
+                  
           </div>
           
       </div>
@@ -339,12 +369,12 @@
   <div class="swiper-button-prev swiper-navBtn"></div>
   <div class="swiper-pagination"></div>
 </div>
-</div>
+ </div>
  
  
 
         
-  <div class="about-2">
+  <div id="PreviousJobs" class="about-2">
     <h1 class="anim">Previous Jobs</h1>
   <div class="images">
       <a href="http://www.meks-xchange.com.ng/">
@@ -358,12 +388,88 @@
   
     
       <video autoplay loop muted playsinline>
-      <source src="images\img3vid.mp4" type="video/mp4"></video>
+      <source src="images\12-49-52.mp4" type="video/mp4"></video>
+
+      <video autoplay loop muted playsinline>
+        <source src="images\12-40-07.mp4" type="video/mp4"></video>
+
+  </div>
+  </div>
+<div id="contact">
+ <div class="Container-contact">
+        <div class="text">Contact Me!</div>
+        <form action="https://formspree.io/f/xgebnkwe" method="POST">
+           <div class="form-row">
+              <div class="input-data">
+                 <input type="text" required name="Name">
+                 <div class="underline"></div>
+                 <label for="">First Name</label>
+              </div>
+              <div class="input-data">
+                 <input type="text" required name="Name">
+                 <div class="underline"></div>
+                 <label for="">Last Name</label>
+              </div>
+           </div>
+           <div class="form-row">
+              <div class="input-data">
+                 <input type="text" required name="Email">
+                 <div class="underline"></div>
+                 <label for="">Email Address</label>
+              </div>
+              <div class="input-data">
+                 <input type="text" required name="Phone">
+                 <div class="underline"></div>
+                 <label for="">Phone Number</label>
+              </div>
+           </div>
+           <div class="form-row">
+              <div class="input-data textarea">
+                 <textarea name="message" rows="8" cols="80" required></textarea>
+                 <br />
+                 <div class="underline"></div>
+                 <label for="">Write your message</label>
+                 <br />
+                 <div class="form-row submit-btn">
+                    <div class="input-data">
+                       <div class="inner"></div>
+                       <input type="submit" value="submit">
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </form>
+     </div>
     
-    
-      <a href="http://www.meks-xchange.com.ng/"><img src="images\privies work.png"></a>
-  
-  
+ 
+  </div>
+  </div>
+ </div>
+                  
+ 
+ <div class="FOOT">
+           <footer>
+            <div class="waves">
+              <div class="wave" id="wave1"></div>
+              <div class="wave" id="wave2"></div>
+              <div class="wave" id="wave3"></div>
+              <div class="wave" id="wave4"></div>
+            </div>
+            <div class="logo-2"><img src="images\logo.png"></div>
+            <ul class="social_icon">
+              <li><a href=""><i class="fab fa-facebook" style="color:var(--blue)"></i></a></li>
+              <li><a href=""><i class="fa fa-instagram" style="color:var(--dark-pink)"></i></a></li>
+              <li><a href=""><i class="fab fa-whatsapp" style="color:var(--light-green)"></i></a></li>
+            </ul>
+            <ul class="menu">
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#AboutMe">About Me</a></li>
+              <li><a href="#contactinfo">contact info</a></li>
+              <li><a href="">privacy policy</a></li>
+            </ul>
+            <p>©2023 leinadweb | All Rights Reserved</p>
+           </footer>
+          </div>
 </body>
   <!-- Swiper JS -->
   <script src="js/swiper-bundle.min.js"></script>

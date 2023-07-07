@@ -16,14 +16,23 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    text-decoration: none;
+    outline: none;
     font-family: poppins,sans-serif;
+    scroll-behavior: smooth;
 }
 .fa-tiktok{
     color: white;
 }
 body{
     background: linear-gradient(45deg, var(--purple),var(--purple-light));
+}
+section{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: #96c7e8;
+    font-size: 70px;
 }
 .container{
     display: flex;
@@ -47,7 +56,7 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
 .profile-card .profile-pic{
     margin-top: 15px;
@@ -284,7 +293,7 @@ body{
     max-width: 1280px;
     padding: 2rem 3rem;
     border-radius: 10px;
-    margin-top: 40px;
+    margin-top: 65px;
 }
 .about-2 h1{
     color: #f2f2f2;
@@ -316,7 +325,7 @@ body{
     max-width: 1200px;
     padding: 2rem 3rem;
     border-radius: 10px;
-    margin-top: 40px;
+    margin-top: 65px;
 }
 .about-3 h1{
     color: #f2f2f2;
@@ -352,8 +361,66 @@ video{
         transform: translateY(0px);
     }
 }
-
-
+.FOOT{
+    position: relative;
+    width: 100%;
+    padding: 20px 50px;
+    min-height: 90px;
+    background: #111;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+}
+footer .social_icon, footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    
+}
+footer .social_icon li, footer .menu li{
+    list-style: none;
+}
+footer .social_icon li a{
+    font-size: 2em;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    color: #f2f2f2;
+}
+footer .social_icon li a:hover{
+    transform: translateY(-10px);
+}
+footer .menu li a{
+    font-size: 1.2em;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    color: #f2f2f2;
+    text-decoration: none;
+    opacity: 0.75;
+}
+footer .menu li a:hover{
+    opacity: 1;
+}
+footer p{
+    color: #f2f2f2;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+.logo-2 img{
+width: 70%;
+object-fit: contain;
+margin: -130px 10px;
+margin-left: 105px;
+align-items: center;
+}
 @media only screen and (max-width: 800px) {
    .about{
     width: 1005;
@@ -362,7 +429,7 @@ video{
     margin: 1rem;
    }
    .profile-card{
-    width: 340px;
+    margin-bottom: 42px;
    }
    .profile-details .intro h2{
     font-size: 27px;
@@ -405,7 +472,7 @@ video{
    }
    .about-2{
     width: 1009;
-    max-width: 400px;
+    max-width: 500px;
     padding: 1rem;
     margin: 1rem;
    }
@@ -454,12 +521,32 @@ video{
    }
     .about-3{
      width: 1005;
-     max-width: 325px;
+     max-width: 340px;
      padding: 1rem;
      margin: 1rem;
+     margin-top: 42px;
     }
     .about-3 h1{
      font-size: 0.5rem;
+    }
+    footer .menu li a{
+        font-size: 1.1em;
+    }
+    footer .social_icon li a{
+        font-size: 1.8em;
+    }
+    footer p{
+        font-size: 0.9em;
+    }
+    .FOOT{
+        margin-top: 50px;
+    }
+    .logo-2 img{
+        width: 120%;
+        object-fit: contain;
+        margin: -90px 10px;
+        margin-left: -40px;
+        align-items: center;
     }
 }
 
@@ -515,7 +602,7 @@ video{
         
        }
        .about-2{
-        width: 1009;
+        width: 1020;
         max-width: 500px;
         padding: 1rem;
         margin: 1rem;
@@ -528,7 +615,7 @@ video{
        }
         .about-3{
          width: 1005;
-         max-width: 325px;
+         max-width: 340px;
          padding: 1rem;
          margin: 1rem;
         }
@@ -626,8 +713,8 @@ video{
         
        }
        .about-2{
-        width: 1009;
-        max-width: 400px;
+        width: 1020;
+        max-width: 500px;
         padding: 1rem;
         margin: 1rem;
        }
@@ -639,7 +726,7 @@ video{
        }
         .about-3{
          width: 1005;
-         max-width: 325px;
+         max-width: 340px;
          padding: 1rem;
          margin: 1rem;
         }
@@ -712,6 +799,10 @@ video{
         border-radius: 6px;
         margin-left: 250px;
     }
+    .about-2{
+        max-width: 500px;
+        width: 1020;
+    }
     .line2::after{
         position:absolute;
         content: "";
@@ -732,8 +823,8 @@ video{
         right: 265px;
        }
         .about-3{
-         width: 1005;
-         max-width: 325px;
+         width: 1009;
+         max-width: 500px;
          padding: 1rem;
          margin: 1rem;
         }
@@ -794,8 +885,8 @@ video{
             
            }
            .about-2{
-            width: 1009;
-            max-width: 400px;
+            width: 1020;
+            max-width: 500px;
             padding: 1rem;
             margin: 1rem;
            }
@@ -807,7 +898,7 @@ video{
            }
             .about-3{
              width: 1005;
-             max-width: 325px;
+             max-width: 400px;
              padding: 1rem;
              margin: 1rem;
             }
@@ -870,32 +961,14 @@ video{
        }
        .about{
         width: 1005;
-        max-width: 400px;
+        max-width: 500px;
         padding: 1rem;
         margin: 1rem;
        }
        .profile-card{
-        width: 340px;
+        width: 350px;
        }
-       .profile-details .intro h2{
-        font-size: 27px;
-       }
-       .profile-details .intro .social i{
-        margin: 3px;
-       }
-       .profile-card .contact-info{
-        width: 400px;
-       }
-       .profile-card .contact-info .row h5{
-        font-size: 12px;
-       }
-       .contact-info .row .icon{
-        height: 38px;
-        width: 38px;
-       }
-       .btn{
-        padding: 0.7rem 2.7rem;
-       }
+
        .about h1{
         font-size: 2.5rem;
        }
@@ -917,8 +990,8 @@ video{
         
        }
        .about-2{
-        width: 1009;
-        max-width: 400px;
+        width: 1029;
+        max-width: 500px;
         padding: 1rem;
         margin: 1rem;
        }
@@ -967,7 +1040,7 @@ video{
        }
         .about-3{
          width: 1005;
-         max-width: 360px;
+         max-width: 385px;
          padding: 1rem;
          margin: 1rem;
         }
@@ -987,9 +1060,9 @@ video{
     }
     .icon-2 .fa{
         margin-top: 20px;
-        margin-left: 75px;
-        margin-right: -71px;
-      }
+        margin-left: 95px;
+        margin-right: -91px;
+    }
       .description{
         font-size: 13px;
         margin-top: 3px;
@@ -1048,10 +1121,11 @@ video{
         
        }
        .about-2{
-        width: 1009;
-        max-width: 400px;
-        padding: 1rem;
-        margin: 1rem;
+        width: 1229;
+        max-width: 500px;
+        padding: -3rem;
+        margin: -0rem;
+        margin-top: 39px;
        }
        .about-2 h1{
         font-size: 2rem;
@@ -1061,9 +1135,10 @@ video{
        }
         .about-3{
          width: 1005;
-         max-width: 335px;
+         max-width: 365px;
          padding: 1rem;
          margin: 1rem;
+         margin-top: 39px;
         }
         .about-3 h1{
          font-size: 1.9rem;
@@ -1122,8 +1197,8 @@ video{
       }
       .icon-2 .fa{
         margin-top: 20px;
-        margin-left: 75px;
-        margin-right: -71px;
+        margin-left: 85px;
+        margin-right: -81px;
       }
       .description{
         font-size: 13px;
