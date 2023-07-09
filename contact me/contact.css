@@ -148,3 +148,11 @@
       width: 40%!important;
     }
   }
+
+  @media (max-width: 800px) {
+    .Container-contact{
+        max-width: 300px;
+        margin-top: 50px;
+        min-height: 650px;
+    }
+  }

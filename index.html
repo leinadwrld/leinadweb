@@ -16,6 +16,7 @@
        <!-- CSS -->
        <link rel="stylesheet" href="css/style.css">
        <link rel="stylesheet" href="css/nav.css">
+       <link rel="stylesheet" href="css\wave.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -440,36 +441,77 @@
            </div>
         </form>
      </div>
-    
- 
   </div>
   </div>
  </div>
-                  
- 
- <div class="FOOT">
-           <footer>
-            <div class="waves">
-              <div class="wave" id="wave1"></div>
-              <div class="wave" id="wave2"></div>
-              <div class="wave" id="wave3"></div>
-              <div class="wave" id="wave4"></div>
-            </div>
-            <div class="logo-2"><img src="images\logo.png"></div>
-            <ul class="social_icon">
-              <li><a href=""><i class="fab fa-facebook" style="color:var(--blue)"></i></a></li>
-              <li><a href=""><i class="fa fa-instagram" style="color:var(--dark-pink)"></i></a></li>
-              <li><a href=""><i class="fab fa-whatsapp" style="color:var(--light-green)"></i></a></li>
-            </ul>
-            <ul class="menu">
-              <li><a href="#Home">Home</a></li>
-              <li><a href="#AboutMe">About Me</a></li>
-              <li><a href="#contactinfo">contact info</a></li>
-              <li><a href="">privacy policy</a></li>
-            </ul>
-            <p>©2023 leinadweb | All Rights Reserved</p>
-           </footer>
-          </div>
+ <div class="header">
+  <!--Content before waves-->
+  <div class="inner-header flex">
+  
+  </div>
+
+  <!--Waves Container-->
+  <div>
+    <svg
+      class="waves"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28"
+      preserveAspectRatio="none"
+      shape-rendering="auto"
+    >
+      <defs>
+        <path
+          id="gentle-wave"
+          d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+        />
+      </defs>
+      <g class="parallax">
+        <use
+          xlink:href="#gentle-wave"
+          x="48"
+          y="0"
+          fill="rgba(0, 0, 0, 0.7)"
+        />
+        <use
+          xlink:href="#gentle-wave"
+          x="48"
+          y="3"
+          fill="rgba(0, 0, 0, 0.5)"
+        />
+        <use
+          xlink:href="#gentle-wave"
+          x="48"
+          y="5"
+          fill="rgba(0, 0, 0, 0.3)"
+        />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(4, 4, 4, 4)" />
+      </g>
+    </svg>
+  </div>
+  <!--Waves end-->
+</div>
+<!--Header ends-->
+
+<!--Content starts-->
+<div class="contents flex">
+  <footer>
+          
+    
+    <ul class="social_icon">
+      <li><a href=""><i class="fab fa-facebook" style="color:var(--blue)"></i></a></li>
+      <li><a href=""><i class="fa fa-instagram" style="color:var(--dark-pink)"></i></a></li>
+      <li><a href=""><i class="fab fa-whatsapp" style="color:var(--light-green)"></i></a></li>
+    </ul>
+    <ul class="menu">
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#AboutMe">About Me</a></li>
+      <li><a href="#contactinfo">contact info</a></li>
+      <li><a href="">privacy policy</a></li>
+    </ul>
+    <p>©2023 leinadweb | All Rights Reserved</p>
+   </footer>
+</div>       
 </body>
   <!-- Swiper JS -->
   <script src="js/swiper-bundle.min.js"></script>

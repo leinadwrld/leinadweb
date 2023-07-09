@@ -121,3 +121,34 @@ nav ul li.btn.hide i:before{
     opacity: 0;
 }
 }
+
+@media all and (max-width: 320px){
+  nav{
+    padding: -8px 200px;
+    margin-bottom: 30px;
+    
+  }
+  .logo img{
+    width: 70%;
+    object-fit: contain;
+    margin: -85px -50px;
+    align-items: center;
+  }
+  nav ul li{
+    padding: 15px 9px;
+    margin-top: -22px;
+    
+  }
+  nav ul li.items{
+    width: 100%;
+    display: none;
+  }
+  nav ul li.items.show{
+    display: block;
+  }
+  nav ul li.btn-nav{
+    display: block;
+    margin-left: 280px;
+    
+  }
+}

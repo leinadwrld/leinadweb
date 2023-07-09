@@ -1207,3 +1207,147 @@ align-items: center;
  }
 
 
+ @media only screen and (max-width: 320px) {
+    
+
+    .about{
+        width: 1005;
+        max-width: 300px;
+        padding: 1rem;
+        margin: 1rem;
+       }
+       .about p{
+        font-size: 0.9rem;
+       }
+       .profile-card{
+        width: 300px;
+       }
+       .profile-details .intro h2{
+        font-size: 25px;
+       }
+       .profile-details .intro h4{
+        font-size: 16px;
+       }
+       .profile-details .intro .social i{
+        margin: 3px;
+       }
+       .profile-card .contact-info{
+        width: 300px;
+       }
+       .profile-card .contact-info .row h5{
+        font-size: 10px;
+       }
+       .contact-info .row .icon{
+        height: 38px;
+        width: 38px;
+       }
+       .about h1{
+        font-size: 2rem;
+       }
+       .box{
+        display: block;
+       }
+       .title h2{
+        font-size: 25px;
+        margin-bottom: 60px;
+       }
+       .firstc{
+        margin: 20px;
+        margin-left: 30px;
+       }
+       .firstc p{
+        margin-bottom: 1px;
+        color: #ffffffcb;
+        animation-delay: 1.3s;
+        font-size: 15px;
+        
+       }
+       .about-2{
+        width: 1229;
+        max-width: 300px;
+        padding: -3rem;
+        margin: -0rem;
+        margin-top: 39px;
+       }
+       .about-2 h1{
+        font-size: 1.8rem;
+       }
+       .about-2 h1::after{
+        width: 30%;
+       }
+        .about-3{
+         width: 1005;
+         max-width: 365px;
+         padding: 1rem;
+         margin: 1rem;
+         margin-top: 39px;
+        }
+        .about-3 h1{
+         font-size: 1.7rem;
+        }
+    .title h2::after{
+     position:absolute;
+     content: "";
+     top:1170px;
+     width: 12%;
+     height: 2px;
+     border-radius: 6px;
+     right: 240px;
+   }
+ .line1::after{
+     position:absolute;
+     content: "";
+     top:1170px;
+     width: 12%;
+     height: 2px;
+     border-radius: 6px;
+     margin-left: 210px;
+ }
+ .line2::after{
+     position:absolute;
+     content: "";
+     top:1178px;
+     width: 16%;
+     height: 2px;
+     border-radius: 6px;
+     margin-left: 205px;
+ }
+ .line3::after{
+     position:absolute;
+     content: "";
+     top:1178px;
+     width: 16%;
+     height: 2px;
+     border-radius: 6px;
+     background: linear-gradient(45deg, #f64c57, #016186);
+     right: 235px;
+     }
+     .slide-container{
+        max-width: 269px;
+      }
+      @keyframes slidescroll {
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(calc(-250px*1));
+        }
+      }
+      .slide-conten{
+        width: calc(250*6);
+        animation: slidescroll 1s linear infinite;
+      }
+      .icon-2 .fa{
+        margin-top: 20px;
+        margin-left: 65px;
+        margin-right: -61px;
+        font-size: 0.9rem;
+        height: 35px;
+        width: 35px;
+      }
+      .description{
+        font-size: 13px;
+        margin-top: 3px;
+      }
+ }
+
