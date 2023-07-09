@@ -842,6 +842,9 @@ align-items: center;
             padding: 1rem;
             margin: 1rem;
            }
+        .about p{
+            font-size: 1rem;
+       }
            .profile-card{
             width: 340px;
            }
