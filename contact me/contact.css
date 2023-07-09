@@ -149,7 +149,7 @@
     }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 320px) {
     .Container-contact{
         max-width: 300px;
         margin-top: 50px;
