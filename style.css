@@ -1061,11 +1061,6 @@ align-items: center;
     .line3::after{
         right: 275px;
     }
-    .icon-2 .fa{
-        margin-top: 20px;
-        margin-left: 95px;
-        margin-right: -91px;
-    }
       .description{
         font-size: 13px;
         margin-top: 3px;
@@ -1197,11 +1192,6 @@ align-items: center;
       .slide-conten{
         width: calc(250*6);
         animation: slidescroll 1s linear infinite;
-      }
-      .icon-2 .fa{
-        margin-top: 20px;
-        margin-left: 85px;
-        margin-right: -81px;
       }
       .description{
         font-size: 13px;
@@ -1339,14 +1329,6 @@ align-items: center;
       .slide-conten{
         width: calc(250*6);
         animation: slidescroll 1s linear infinite;
-      }
-      .icon-2 .fa{
-        margin-top: 20px;
-        margin-left: 65px;
-        margin-right: -61px;
-        font-size: 0.9rem;
-        height: 35px;
-        width: 35px;
       }
       .description{
         font-size: 13px;
