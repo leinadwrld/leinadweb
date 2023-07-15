@@ -842,9 +842,6 @@ align-items: center;
             padding: 1rem;
             margin: 1rem;
            }
-        .about p{
-            font-size: 1rem;
-       }
            .profile-card{
             width: 340px;
            }
@@ -998,6 +995,7 @@ align-items: center;
         padding: 1rem;
         margin: 1rem;
        }
+       
        .about-2 h1{
         font-size: 2rem;
        }
@@ -1061,6 +1059,7 @@ align-items: center;
     .line3::after{
         right: 275px;
     }
+    
       .description{
         font-size: 13px;
         margin-top: 5px;
@@ -1330,6 +1329,7 @@ align-items: center;
         width: calc(250*6);
         animation: slidescroll 1s linear infinite;
       }
+      
       .description{
         font-size: 13px;
         margin-top: 3px;
