@@ -100,6 +100,8 @@
     cursor: pointer;
     margin-left: 107px;
     margin-top: 20px;
+    display: none;
+    margin-top: 30px
     transition: all 0.3s ease;
 }
 .swiper-navBtn{
