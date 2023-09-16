@@ -322,7 +322,7 @@ section{
 }
 .about-3{
     background-color: #111;
-    max-width: 1200px;
+    max-width: 1500px;
     padding: 2rem 3rem;
     border-radius: 10px;
     margin-top: 65px;
@@ -542,7 +542,7 @@ align-items: center;
         margin-top: 50px;
     }
     .logo-2 img{
-        width: 130%;
+        width: 120%;
         object-fit: contain;
         margin: -90px 10px;
         margin-left: -40px;
@@ -945,7 +945,7 @@ align-items: center;
      }
 
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 413px) {
         
     .about-2 img{
         margin: 0 20px 0;
@@ -1335,4 +1335,1166 @@ align-items: center;
         margin-top: 3px;
       }
  }
+ @media only screen and (min-width: 820px) and (max-width: 913px) {
+    
+    nav{
+        padding: -8px 200px;
+        margin-bottom: 30px;
+      }
+      nav ul li.items{
+        width: 100%;
+        display: none;
+      }
+      nav ul li.items.show{
+        display: block;
+      }
+      nav ul li.btn-nav{
+        display: block;
+        margin-left: 28px;
+        margin-top: 15px;
+        
+      }
+      nav ul li.items:hover{
+        border-radius: 5px;
+        box-shadow: inset 0 0 5px #f64c57,
+                    inset 0 0 10px #016186;
+      }
+      nav ul li.items:hover:after{
+        opacity: 0;
+    }
+    
+    .about{
+        width: 1005;
+        max-width: 460px;
+        padding: 1rem;
+        margin: 1rem;
+       }
+       .about p{
+        font-size: 1rem;
+       }
+       .profile-card{
+        width: 298px;
+        
+       }
+       .profile-details .intro h2{
+        font-size: 25px;
+       }
+       .profile-details .intro h4{
+        font-size: 16px;
+       }
+       .profile-details .intro .social i{
+        margin: 3px;
+       }
+       .profile-card .contact-info{
+        width: 300px;
+       }
+       .profile-card .contact-info .row h5{
+        font-size: 10px;
+       }
+       .contact-info .row .icon{
+        height: 38px;
+        width: 38px;
+       }
+       .about h1{
+        font-size: 2rem;
+       }
+       .title h2{
+        font-size: 25px;
+        margin-bottom: 60px;
+       }
+       .firstc{
+        margin: 20px
+       }
+       .firstc p{
+        margin-bottom: 1px;
+        color: #ffffffcb;
+        animation-delay: 1.3s;
+        font-size: 11px;
+       
+}
+.firstc{
+    height: 300px;
+    width: 139px;
+    padding: 20px -5px;
+    background: #1d1d1d;
+    border-radius: 20px;
+    margin: 7px;
+    position: relative;
+    text-align: center;
+}
+.firstc .fa-css3{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin: 8px 0;
+    color: #00b4fc;
+}
+.firstc .fa-html5{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin: 8px 0;
+    color: orangered;
+}
+.firstc .fa-code{
+    font-size: 30px;
+}
+.first h5{
+    font-size: 15px;
+}
+       .about-2{
+        width: 1229;
+        max-width: 788px;
+        padding: -3rem;
+        margin: -0rem;
+        margin-top: 39px;
+       }
+       .about-2 h1{
+        font-size: 2rem;
+       }
+       .about-2 h1::after{
+        width: 30%;
+       }
+       video{
+        width: 43%;
+        padding: -8px 100px;
+        
+       }
+        .about-3{
+         width: 1005;
+         width: 788px;
+         padding: 1rem;
+         margin: 1rem;
+         margin-top: 39px;
+        }
+        .about-3 h1{
+         font-size: 2rem;
+        }
+    .title h2::after{
+     position:absolute;
+     content: "";
+     top:455px;
+     width: 5%;
+     height: 2px;
+     border-radius: 6px;
+     right: 310px;
+   }
+ .line1::after{
+     position:absolute;
+     content: "";
+     top:455px;
+     width: 5%;
+     height: 2px;
+     border-radius: 6px;
+     margin-left: 275px;
+ }
+ .line2::after{
+     position:absolute;
+     content: "";
+     top:463px;
+     width: 8%;
+     height: 2px;
+     border-radius: 6px;
+     margin-left: 275px;
+ }
+ .line3::after{
+     position:absolute;
+     content: "";
+     top:463px;
+     width: 8%;
+     height: 2px;
+     border-radius: 6px;
+     background: linear-gradient(45deg, #f64c57, #016186);
+     right: 310px;
+     }
+     .slide-container{
+        max-width: 769px;
+      }
+      @keyframes slidescroll {
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(calc(-250px*1));
+        }
+      }
+      .slide-conten{
+        width: calc(250*6);
+        animation: slidescroll 1s linear infinite;
+      }
+      
+      .description{
+        font-size: 13px;
+        margin-top: 3px;
+      }
+ }
 
+ @media only screen and (min-width: 768px) and (max-width: 819px) {
+    nav{
+        padding: -8px 200px;
+        margin-bottom: 30px;
+      }
+      .logo img{
+        width: 55%;
+        object-fit: contain;
+        margin: -110px -60px;
+        align-items: center;
+      }
+      nav ul li.items{
+        width: 100%;
+        display: none;
+      }
+      nav ul li.items.show{
+        display: block;
+      }
+      nav ul li.btn-nav{
+        display: block;
+        margin-left: 28px;
+        margin-top: 15px;
+        
+      }
+      nav ul li.items:hover{
+        border-radius: 5px;
+        box-shadow: inset 0 0 5px #f64c57,
+                    inset 0 0 10px #016186;
+      }
+      nav ul li.items:hover:after{
+        opacity: 0;
+    }
+
+    .about{
+        width: 1005;
+        max-width: 860px;
+        padding: 1rem;
+        margin: 1rem;
+       }
+       .about p{
+        font-size: 1.1rem;
+       }
+       .profile-card{
+        width: 400px;
+       }
+       .profile-details .intro h2{
+        font-size: 25px;
+       }
+       .profile-details .intro h4{
+        font-size: 16px;
+       }
+       .profile-details .intro .social i{
+        margin: 3px;
+       }
+       .profile-card .contact-info{
+        width: 300px;
+       }
+       .profile-card .contact-info .row h5{
+        font-size: 13px;
+       }
+       .contact-info .row .icon{
+        height: 38px;
+        width: 38px;
+       }
+       .about h1{
+        font-size: 2rem;
+       }
+       .title h2{
+        font-size: 25px;
+        margin-bottom: 60px;
+       }
+       .firstc{
+        margin: 20px
+       }
+       .firstc p{
+        margin-bottom: 1px;
+        color: #ffffffcb;
+        animation-delay: 1.3s;
+        font-size: 11px;
+       
+}
+.box{
+    display: flex;
+}
+.firstc{
+    height: 300px;
+    width: 210px;
+    padding: 20px -5px;
+    background: #1d1d1d;
+    border-radius: 20px;
+    margin: 7px;
+    position: relative;
+    text-align: center;
+    
+}
+.firstc p{
+ margin-bottom: -5px;
+ color: #ffffffcb;
+ animation-delay: 1.3s;
+ font-size: 13px;
+}
+.firstc .fa-css3{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin: 8px 0;
+    color: #00b4fc;
+}
+.firstc .fa-html5{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin: 8px 0;
+    color: orangered;
+}
+.firstc .fa-code{
+    font-size: 30px;
+}
+.first h5{
+    font-size: 15px;
+}
+       .about-2{
+        width: 1229;
+        max-width: 738px;
+        padding: -3rem;
+        margin: -0rem;
+        margin-top: 39px;
+       }
+       .about-2 h1{
+        font-size: 2rem;
+       }
+       .about-2 h1::after{
+        width: 30%;
+       }
+       video{
+        width: 43%;
+        padding: -8px 100px;
+        
+       }
+        .about-3{
+         width: 1005;
+        max-width: 738px;
+         padding: 1rem;
+         margin: 1rem;
+         margin-top: 39px;
+        }
+        .about-3 h1{
+         font-size: 2rem;
+        }
+    .title h2::after{
+     position:absolute;
+     content: "";
+     top:1035px;
+     width: 5%;
+     height: 2px;
+     border-radius: 6px;
+     right: 280px;
+   }
+ .line1::after{
+     position:absolute;
+     content: "";
+     top:1035px;
+     width: 5%;
+     height: 2px;
+     border-radius: 6px;
+     margin-left: 245px;
+ }
+ .line2::after{
+     position:absolute;
+     content: "";
+     top:1045px;
+     width: 8%;
+     height: 2px;
+     border-radius: 6px;
+     margin-left: 223px;
+ }
+ .line3::after{
+     position:absolute;
+     content: "";
+     top:1045px;
+     width: 8%;
+     height: 2px;
+     border-radius: 6px;
+     background: linear-gradient(45deg, #f64c57, #016186);
+     right: 258px;
+     }
+     .slide-container{
+        max-width: 749px;
+      }
+      @keyframes slidescroll {
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(calc(-250px*1));
+        }
+      }
+      .slide-conten{
+        width: calc(250*6);
+        animation: slidescroll 1s linear infinite;
+      }
+      
+      .description{
+        font-size: 13px;
+        margin-top: 3px;
+      }
+ }
+
+ @media only screen and (min-width: 912px) and (max-width: 1000px) {
+    
+    nav{
+        padding: -8px 200px;
+        margin-bottom: 30px;
+      }
+      .logo img{
+        width: 50%;
+        object-fit: contain;
+        margin: -110px -40px;
+        align-items: center;
+        margin-right: 100px;
+      }
+      nav ul li.items{
+        width: 100%;
+        display: none;
+      }
+      nav ul li.items.show{
+        display: block;
+      }
+      nav ul li.btn-nav{
+        display: block;
+        margin-left: 28px;
+        margin-top: 15px;
+        
+      }
+      nav ul li.items:hover{
+        border-radius: 5px;
+        box-shadow: inset 0 0 5px #f64c57,
+                    inset 0 0 10px #016186;
+      }
+      nav ul li.items:hover:after{
+        opacity: 0;
+    }
+    
+    .about{
+        width: 1005;
+        max-width: 512px;
+        padding: 1rem;
+        margin: 1rem;
+       }
+       .about p{
+        font-size: 1rem;
+       }
+       .profile-card{
+        width: 338px;
+        
+       }
+       .profile-details .intro h2{
+        font-size: 25px;
+       }
+       .profile-details .intro h4{
+        font-size: 16px;
+       }
+       .profile-details .intro .social i{
+        margin: 3px;
+       }
+       .profile-card .contact-info{
+        width: 300px;
+       }
+       .profile-card .contact-info .row h5{
+        font-size: 10px;
+       }
+       .contact-info .row .icon{
+        height: 38px;
+        width: 38px;
+       }
+       .about h1{
+        font-size: 2rem;
+       }
+       .title h2{
+        font-size: 25px;
+        margin-bottom: 60px;
+       }
+       
+       .firstc{
+        margin: 20px
+       }
+       .firstc p{
+        margin-bottom: 1px;
+        color: #ffffffcb;
+        animation-delay: 1.3s;
+        font-size: 11px;
+       
+}
+.firstc{
+    height: 300px;
+    width: 160px;
+    padding: 20px -5px;
+    background: #1d1d1d;
+    border-radius: 20px;
+    margin: 7px;
+    position: relative;
+    text-align: center;
+}
+.firstc .fa-css3{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin: 8px 0;
+    color: #00b4fc;
+}
+.firstc .fa-html5{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin: 8px 0;
+    color: orangered;
+}
+.firstc .fa-code{
+    font-size: 30px;
+}
+.first h5{
+    font-size: 15px;
+}
+       .about-2{
+        width: 1229;
+        max-width: 888px;
+        padding: -3rem;
+        margin: -0rem;
+        margin-top: 39px;
+       }
+       .about-2 h1{
+        font-size: 2rem;
+       }
+       .about-2 h1::after{
+        width: 30%;
+       }
+       video{
+        width: 44%;
+        padding: -8px 100px;
+        
+       }
+        .about-3{
+         width: 1005;
+         width: 888px;
+         padding: 1rem;
+         margin: 1rem;
+         margin-top: 39px;
+        }
+        .about-3 h1{
+         font-size: 2rem;
+        }
+    .title h2::after{
+     position:absolute;
+     content: "";
+     top:455px;
+     width: 5%;
+     height: 2px;
+     border-radius: 6px;
+     right: 310px;
+   }
+ .line1::after{
+     position:absolute;
+     content: "";
+     top:455px;
+     width: 5%;
+     height: 2px;
+     border-radius: 6px;
+     margin-left: 275px;
+ }
+ .line2::after{
+     position:absolute;
+     content: "";
+     top:463px;
+     width: 8%;
+     height: 2px;
+     border-radius: 6px;
+     margin-left: 275px;
+ }
+ .line3::after{
+     position:absolute;
+     content: "";
+     top:463px;
+     width: 8%;
+     height: 2px;
+     border-radius: 6px;
+     background: linear-gradient(45deg, #f64c57, #016186);
+     right: 310px;
+     }
+     .slide-container{
+        max-width: 769px;
+      }
+      @keyframes slidescroll {
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(calc(-250px*1));
+        }
+      }
+      .slide-conten{
+        width: calc(250*6);
+        animation: slidescroll 1s linear infinite;
+      }
+      
+      .description{
+        font-size: 13px;
+        margin-top: 3px;
+      }
+ }
+
+ @media only screen and (min-width: 461px) and (max-width: 530px) {
+    nav{
+        padding: -8px 200px;
+        margin-bottom: 30px;
+      }
+      .logo img{
+        width: 68%;
+        object-fit: contain;
+        margin: -120px -60px;
+        align-items: center;
+      }
+      nav ul li.items{
+        width: 100%;
+        display: none;
+      }
+      nav ul li.items.show{
+        display: block;
+      }
+      nav ul li.btn-nav{
+        display: block;
+        
+        margin-left: 410px;
+        margin-bottom: 10px;
+      }
+      nav ul li.items:hover{
+        border-radius: 5px;
+        box-shadow: inset 0 0 5px #f64c57,
+                    inset 0 0 10px #016186;
+      }
+      nav ul li.items:hover:after{
+        opacity: 0;
+    }
+
+    .about{
+        width: 1005;
+        max-width: 435px;
+        padding: 1rem;
+        margin: 1rem;
+       }
+       .about p{
+        font-size: 1.1rem;
+       }
+       .profile-card{
+        width: 373px;
+       }
+       .profile-details .intro h2{
+        font-size: 25px;
+       }
+       .profile-details .intro h4{
+        font-size: 16px;
+       }
+       .profile-details .intro .social i{
+        margin: 3px;
+       }
+       .profile-card .contact-info{
+        width: 300px;
+       }
+       .profile-card .contact-info .row h5{
+        font-size: 13px;
+       }
+       .contact-info .row .icon{
+        height: 38px;
+        width: 38px;
+       }
+       .about h1{
+        font-size: 2.1rem;
+       }
+       .title h2{
+        font-size: 25px;
+        margin-bottom: 60px;
+       }
+       .firstc{
+        margin: 20px
+       }
+       .firstc p{
+        margin-bottom: 1px;
+        color: #ffffffcb;
+        animation-delay: 1.3s;
+        font-size: 11px;
+       
+}
+.box{
+    display: block;
+}
+.firstc{
+    height: 300px;
+    width: 235px;
+    padding: 20px -10px;
+    background: #1d1d1d;
+    border-radius: 20px;
+    margin: 7px;
+    margin-left: 80px;
+    position: relative;
+    text-align: center;
+    
+}
+.firstc p{
+ margin-bottom: -5px;
+ color: #ffffffcb;
+ animation-delay: 1.3s;
+ font-size: 13px;
+}
+.firstc .fa-css3{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin: 8px 0;
+    color: #00b4fc;
+}
+.firstc .fa-html5{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin: 8px 0;
+    color: orangered;
+}
+.firstc .fa-code{
+    font-size: 30px;
+}
+.first h5{
+    font-size: 15px;
+}
+       .about-2{
+        width: 1229;
+        max-width: 435px;
+        padding: -3rem;
+        margin: -0rem;
+        margin-top: 39px;
+       }
+       .about-2 h1{
+        font-size: 2rem;
+       }
+       .about-2 h1::after{
+        width: 30%;
+       }
+       video{
+        width: 93%;
+        padding: -8px 100px;
+        
+       }
+        .about-3{
+         width: 1005;
+        max-width: 435px;
+         padding: 1rem;
+         margin: 1rem;
+         margin-top: 39px;
+        }
+        .about-3 h1{
+         font-size: 2rem;
+        }
+    .title h2::after{
+     position:absolute;
+     content: "";
+     top:1170px;
+     width: 10%;
+     height: 2px;
+     border-radius: 6px;
+     right: 320px;
+   }
+ .line1::after{
+     position:absolute;
+     content: "";
+     top:1170px;
+     width: 10%;
+     height: 2px;
+     border-radius: 6px;
+     margin-left: 280px;
+ }
+ .line2::after{
+     position:absolute;
+     content: "";
+     top:1178px;
+     width: 14%;
+     height: 2px;
+     border-radius: 6px;
+     margin-left: 280px;
+ }
+ .line3::after{
+     position:absolute;
+     content: "";
+     top:1178px;
+     width: 14%;
+     height: 2px;
+     border-radius: 6px;
+     background: linear-gradient(45deg, #f64c57, #016186);
+     right: 320px;
+     }
+     .slide-container{
+        max-width: 749px;
+      }
+      @keyframes slidescroll {
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(calc(-250px*1));
+        }
+      }
+      .slide-conten{
+        width: calc(250*6);
+        animation: slidescroll 1s linear infinite;
+      }
+      
+      .description{
+        font-size: 13px;
+        margin-top: 3px;
+      }
+ }
+ @media only screen and (min-width: 531px) and (max-width: 630px) {
+    nav{
+        padding: -8px 200px;
+        margin-bottom: 30px;
+      }
+      .logo img{
+        width: 58%;
+        object-fit: contain;
+        margin: -120px -60px;
+        align-items: center;
+      }
+      nav ul li.items{
+        width: 100%;
+        display: none;
+      }
+      nav ul li.items.show{
+        display: block;
+      }
+      nav ul li.btn-nav{
+        display: block;
+        
+        margin-left: 410px;
+        margin-bottom: 10px;
+      }
+      nav ul li.items:hover{
+        border-radius: 5px;
+        box-shadow: inset 0 0 5px #f64c57,
+                    inset 0 0 10px #016186;
+      }
+      nav ul li.items:hover:after{
+        opacity: 0;
+    }
+
+    .about{
+        width: 1005;
+        max-width: 535px;
+        padding: 1rem;
+        margin: 1rem;
+       }
+       .about p{
+        font-size: 1.1rem;
+       }
+       .profile-card{
+        width: 393px;
+       }
+       .profile-details .intro h2{
+        font-size: 25px;
+       }
+       .profile-details .intro h4{
+        font-size: 16px;
+       }
+       .profile-details .intro .social i{
+        margin: 3px;
+       }
+       .profile-card .contact-info{
+        width: 300px;
+       }
+       .profile-card .contact-info .row h5{
+        font-size: 13px;
+       }
+       .contact-info .row .icon{
+        height: 38px;
+        width: 38px;
+       }
+       .about h1{
+        font-size: 2.5rem;
+       }
+       .title h2{
+        font-size: 25px;
+        margin-bottom: 60px;
+       }
+       .firstc{
+        margin: 20px
+       }
+       .firstc p{
+        margin-bottom: 1px;
+        color: #ffffffcb;
+        animation-delay: 1.3s;
+        font-size: 11px;
+       
+}
+.box{
+    display: block;
+}
+.firstc{
+    height: 300px;
+    width: 280px;
+    padding: 20px -10px;
+    background: #1d1d1d;
+    border-radius: 20px;
+    margin: 7px;
+    margin-left: 100px;
+    position: relative;
+    text-align: center;
+    
+}
+.firstc p{
+ margin-bottom: -5px;
+ color: #ffffffcb;
+ animation-delay: 1.3s;
+ font-size: 13px;
+}
+.firstc .fa-css3{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin: 8px 0;
+    color: #00b4fc;
+}
+.firstc .fa-html5{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin: 8px 0;
+    color: orangered;
+}
+.firstc .fa-code{
+    font-size: 30px;
+}
+.first h5{
+    font-size: 15px;
+}
+       .about-2{
+        width: 1229;
+        max-width: 535px;
+        padding: -3rem;
+        margin: -0rem;
+        margin-top: 39px;
+       }
+       .about-2 h1{
+        font-size: 2rem;
+       }
+       .about-2 h1::after{
+        width: 30%;
+       }
+       video{
+        width: 93%;
+        padding: -8px 100px;
+        
+       }
+        .about-3{
+         width: 1005;
+        max-width: 535px;
+         padding: 1rem;
+         margin: 1rem;
+         margin-top: 39px;
+        }
+        .about-3 h1{
+         font-size: 2rem;
+        }
+    .title h2::after{
+     position:absolute;
+     content: "";
+     top:1120px;
+     width: 10%;
+     height: 2px;
+     border-radius: 6px;
+     right: 390px;
+   }
+ .line1::after{
+     position:absolute;
+     content: "";
+     top:1120px;
+     width: 10%;
+     height: 2px;
+     border-radius: 6px;
+     margin-left: 350px;
+ }
+ .line2::after{
+     position:absolute;
+     content: "";
+     top:1128px;
+     width: 14%;
+     height: 2px;
+     border-radius: 6px;
+     margin-left: 350px;
+ }
+ .line3::after{
+     position:absolute;
+     content: "";
+     top:1128px;
+     width: 14%;
+     height: 2px;
+     border-radius: 6px;
+     background: linear-gradient(45deg, #f64c57, #016186);
+     right: 390px;
+     }
+     .slide-container{
+        max-width: 749px;
+      }
+      @keyframes slidescroll {
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(calc(-250px*1));
+        }
+      }
+      .slide-conten{
+        width: calc(250*6);
+        animation: slidescroll 1s linear infinite;
+      }
+      
+      .description{
+        font-size: 13px;
+        margin-top: 3px;
+      }
+ }
+ 
+ @media only screen and (min-width: 414px) and (max-width: 460px) {
+    nav{
+        padding: -8px 200px;
+        margin-bottom: 30px;
+      }
+      .logo img{
+        width: 74%;
+        object-fit: contain;
+        margin: -120px -60px;
+        align-items: center;
+      }
+      nav ul li.items{
+        width: 100%;
+        display: none;
+      }
+      nav ul li.items.show{
+        display: block;
+      }
+      nav ul li.btn-nav{
+        display: block;
+        
+        margin-left: 355px;
+        margin-bottom: 10px;
+      }
+      .about-2 img{
+        margin: 0 20px 0;
+        margin-right: 4px;
+        width: 90%;
+        margin: 5px 16px;
+       }
+       video{
+        margin: 0 20px 0;
+        margin-right: 4px;
+        width: 90%;
+        margin: 5px 16px;
+       }
+       .about{
+        width: 1005;
+        max-width: 500px;
+        padding: 1rem;
+        margin: 1rem;
+       }
+       .profile-card{
+        width: 350px;
+       }
+
+       .about h1{
+        font-size: 2.5rem;
+       }
+       .box{
+        display: block;
+       }
+       .title h2{
+        font-size: 28px;
+        margin-bottom: 60px;
+       }
+       .firstc{
+        margin: 20px;
+        margin-left: 50px;
+       }
+       .firstc p{
+        margin-bottom: 1px;
+        color: #ffffffcb;
+        animation-delay: 1.3s;
+        
+       }
+       .about-2{
+        width: 1009;
+        max-width: 600px;
+        padding: 1rem;
+        margin: 1rem;
+       }
+       
+       .about-2 h1{
+        font-size: 2rem;
+       }
+       .about-2 h1::after{
+        width: 30%;
+       }
+       .title h2::after{
+        position:absolute;
+        content: "";
+        top:1170px;
+        width: 12%;
+        height: 2px;
+        border-radius: 6px;
+        right: 270px;
+      }
+    .line1::after{
+        position:absolute;
+        content: "";
+        top:1170px;
+        width: 12%;
+        height: 2px;
+        border-radius: 6px;
+        margin-left: 250px;
+    }
+    .line2::after{
+        position:absolute;
+        content: "";
+        top:1178px;
+        width: 16%;
+        height: 2px;
+        border-radius: 6px;
+        margin-left: 245px;
+    }
+    .line3::after{
+        position:absolute;
+        content: "";
+        top:1178px;
+        width: 16%;
+        height: 2px;
+        border-radius: 6px;
+        background: linear-gradient(45deg, #f64c57, #016186);
+        right: 265px;
+       }
+        .about-3{
+         width: 1005;
+         max-width: 400px;
+         padding: 1rem;
+         margin: 1rem;
+        }
+        .about-3 h1{
+         font-size: 1.9rem;
+        }
+   
+    .firstc{
+        margin: 20px;
+        margin-left: 70px;
+    }
+    .title h2::after{
+        right: 280px;
+    }
+    .line3::after{
+        right: 275px;
+    }
+    
+      .description{
+        font-size: 13px;
+        margin-top: 5px;
+      }
+}
