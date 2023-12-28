@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="I'm a Front-End Developer and i make designs on website, work with me today.">
+    <meta name="keywords" content="HTML, website, web-developer, Front-End Developer, web-design, JavaScript, leinadwrld, CSS, leinadweb">
+    <meta name="author"  content="leinadwrld">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>templates</title>
+
+       <!-- CSS -->
+       <link rel="stylesheet" href="templates.css">
+       <link rel="stylesheet" href="css\nav.css">
+       <link rel="stylesheet" href="css\wave.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+</head>
+<body>
+  <div class="nav-barr">
+    <div class="nav-li">
+    <nav>
+        <ul>
+         <li><div class="logo">
+            <img id="Home" src="images\logo.png">
+          </div></li>
+           <li class="items"><a href="index.html#Home">Home</a></li>
+           <li class="items"><a href="index.html#PreviousJobs">Previous Jobs</a></li>
+           <li class="items"><a href="index.html#MyReviews">My Reviews</a></li>
+           <li class="items"><a href="#contact"><button class="btn-contact">Contact Me</button></a></li>
+        <div class="navbarr"><li class="btn-nav"><a href="#"><i class="fas fa-bars"></i></a></li></div>
+        </ul>
+     </nav>
+     <script>
+        $(document).ready(function(){
+          $('.btn-nav').click(function(){
+            $('.items').toggleClass("show");
+            $('ul li').toggleClass("hide");
+          });
+        });
+     </script>
+     </div>
+    </div>
+<div class="portfolio-bg">
+<section class="portfolio">
+    <h1>Templates</h1>
+    <ul class="cards">
+      <li class="card">
+        <img src="images\Screenshot 2023-07-04 072207.png" alt="img">
+        <h3>Mountain Hiking</h3>
+        <p>Embark on an exhilarating hiking adventure in the breathtaking mountain ranges.</p>
+      </li>
+      <li class="card">
+        <img src="images/Screenshot 2023-09-22 084555.png" alt="img">
+        <h3>Lakeside Camping</h3>
+        <p>Enjoy a tranquil camping experience by the serene shores of picturesque lakes.</p>
+      </li>
+      <li class="card">
+        <img src="images/Screenshot 2023-09-22 084555.png" alt="img">
+        <h3>Beach Camping</h3>
+        <p>Escape to sandy beaches and camp under the starry sky by the crashing waves.</p>
+      </li>
+      <li class="card">
+        <img src="images/Screenshot 2023-09-22 084555.png" alt="img">
+        <h3>Forest Exploration</h3>
+        <p>Discover the wonders of lush forests and immerse yourself in nature's beauty.</p>
+      </li>
+      <li class="card">
+        <img src="images/Screenshot 2023-09-22 084555.png" alt="img">
+        <h3>RV Camping</h3>
+        <p>Experience the freedom of road trips and camping adventures with our RV rentals.</p>
+      </li>
+      <li class="card">
+        <img src="images/Screenshot 2023-09-22 084555.png" alt="img">
+        <h3>Desert Camping</h3>
+        <p>Embark on a unique desert camping experience and witness stunning landscapes.</p>
+      </li>
+    </ul>
+  </section>
+</div>
+
+<div class="header">
+  <!--Content before waves-->
+  <div class="inner-header flex">
+  
+  </div>
+
+  <!--Waves Container-->
+  <div>
+    <svg
+      class="waves"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28"
+      preserveAspectRatio="none"
+      shape-rendering="auto"
+    >
+      <defs>
+        <path
+          id="gentle-wave"
+          d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+        />
+      </defs>
+      <g class="parallax">
+        <use
+          xlink:href="#gentle-wave"
+          x="48"
+          y="0"
+          fill="rgba(0, 0, 0, 0.7)"
+        />
+        <use
+          xlink:href="#gentle-wave"
+          x="48"
+          y="3"
+          fill="rgba(0, 0, 0, 0.5)"
+        />
+        <use
+          xlink:href="#gentle-wave"
+          x="48"
+          y="5"
+          fill="rgba(0, 0, 0, 0.3)"
+        />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(4, 4, 4, 4)" />
+      </g>
+    </svg>
+  </div>
+  <!--Waves end-->
+</div>
+<!--Header ends-->
+
+<!--Content starts-->
+<div class="contents flex">
+  <footer>
+          
+    
+    <ul class="social_icon">
+      <li><a href=""><i class="fab fa-facebook" style="color:var(--blue)"></i></a></li>
+      <li><a href=""><i class="fa fa-instagram" style="color:var(--dark-pink)"></i></a></li>
+      <li><a href=""><i class="fab fa-whatsapp" style="color:var(--light-green)"></i></a></li>
+    </ul>
+    <ul class="menu">
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#AboutMe">About Me</a></li>
+      <li><a href="#contactinfo">contact info</a></li>
+      <li><a href="">privacy policy</a></li>
+    </ul>
+    <p>©2023 leinadweb | All Rights Reserved</p>
+   </footer>
+</div>       
+</body>
+  <!-- Swiper JS -->
+  <script src="js/swiper-bundle.min.js"></script>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+</html>
